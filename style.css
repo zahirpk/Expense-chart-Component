@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+:root{
+
+--Soft-red: hsl(10, 79%, 65%);
+--Cyan: hsl(186, 34%, 60%);
+--Dark-brown: hsl(25, 47%, 15%);
+--Medium-brown: hsl(28, 10%, 53%);
+--Cream: hsl(27, 66%, 92%);
+--Very-pale-orange: hsl(33, 100%, 98%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: var(--Very-pale-orange);
+    font-family: 'DM Sans', sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 18px;
+}
+main{
+ 
+    width: 100%;
+    height: 100%;
+    padding: 2.5rem 1rem 1.5rem 1rem;
+}
+.top,.bottom{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: var(--Soft-red);
+}
+.left{
+
+    color: var(--Cream);
+}
+h4{
+    margin-bottom: 0.2rem;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+section{
+
+    background-color: white;
+    border-radius: 5px;
+    padding: 1.5rem  1rem;
+   
+}
+#myChart{
+
+    margin-right: 1.5rem;
+   
+}
+hr{
+
+    margin: 1.5rem 0rem;
+    background-color: var(--Cream);
+}
+h1,h5{
+
+    color: var(--Dark-brown);
+}
+h5{
+    padding-left: 4rem;
+}
+.h4-heading{
+
+    color: var(--Medium-brown);
+}
+.bottom{
+
+    background-color: white;
+    padding: 0;
+    margin-bottom: 0;
+}
+@media(min-width:25rem){
+
+    body{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        width: 25rem;
+    }
+}
